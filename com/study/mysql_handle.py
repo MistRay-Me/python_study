@@ -20,6 +20,7 @@ def test_database():
     print("Database version : %s" % data)
 
     cursor.execute("select * from t_test_index")
+    # 结果为一个元组
     test_index = cursor.fetchone()
 
     ids = test_index[0]
