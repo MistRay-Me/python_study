@@ -1,5 +1,5 @@
 # 单行注释
-print('''helloworld''')  # 单行注释
+print('''hello_world''')  # 单行注释
 ''' 
 多行注释
 多行注释
